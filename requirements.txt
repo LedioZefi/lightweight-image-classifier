@@ -1,0 +1,24 @@
+# Build tools (upgrade these once before installing)
+pip>=24.2
+setuptools>=69.5.1
+wheel>=0.43.0
+
+# TensorFlow (CPU) and core stack for Python 3.12 on WSL
+tensorflow==2.18.0
+numpy==1.26.4
+scipy==1.11.4
+
+# Data + utils
+tensorflow-datasets==4.9.6
+promise==2.3
+Pillow==10.4.0
+opencv-python-headless==4.10.0.84
+requests==2.32.3
+
+# Viz / metrics
+matplotlib==3.8.4
+scikit-learn==1.4.2
+
+# Dev (optional)
+ipython==8.26.0
+jupyter==1.0.0
