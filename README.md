@@ -149,5 +149,3 @@ python -m src.image_classifier --batch-size 16
 
 **OpenRouter errors**  
 Check that your `OPENROUTER_API_KEY` is set and valid. The program will still run without it.
-
----# lightweight-image-classifier
